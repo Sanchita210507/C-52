@@ -1,0 +1,66 @@
+h1{
+ color:pink;
+margin-left:30px;
+
+}
+.header{
+background-color:cadetblue;
+display:flex;
+justify-content:space-between;
+}
+.grid{
+display:flex;
+flex-wrap:wrap;
+justify-content:space-evenly;
+}
+.footer{
+display:flex;
+justify-content:flex-end;
+}
+p,h2{
+text-align:center;
+}
+body{
+background-color:#CDCDCD
+}
+a:link{
+color:blue;
+}
+a:visited{
+color:purple;
+}
+.menu{
+margin:30px;
+}
+.menu a{
+margin-left:20px;
+}
+.item{
+position:relative;
+}
+.item p{
+position:absolute;
+top:50%;
+left:50%;
+
+opacity:0;
+}
+.item:hover p{
+opacity:1;
+transform:translate(-50%,-50%);
+font: italic small-caps normal 20px/150% Arial, Helvetica, sans-serif;
+color:purple;
+}
+.item:hover img{
+opacity:0.33;
+}
+
+
+
+
+
+
+
+
+
+
